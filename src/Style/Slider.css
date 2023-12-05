@@ -1,0 +1,12 @@
+.slider-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slider-container img {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  max-width: 100%;
+}
