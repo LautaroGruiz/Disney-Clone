@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "../src/Components/Header";
 import ProductionHouse from "../src/Components/ProductionHouse";
 import Slider from "../src/Components/Slider";
+import GenreMovieList from "./Components/GenreMovieList";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <Slider />
         <ProductionHouse />
+        <GenreMovieList />
       </div>
     </>
   );
