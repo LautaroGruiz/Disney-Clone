@@ -1,4 +1,4 @@
-export const HeaderItem = ({ name, Icon }) => {
+const HeaderItem = ({ name, Icon }) => {
   return (
     <div
       className="text-white flex items-center gap-3 
@@ -8,5 +8,7 @@ export const HeaderItem = ({ name, Icon }) => {
       <Icon />
       <h2 className="">{name}</h2>
     </div>
-  );
-};
+  )
+}
+
+export default HeaderItem

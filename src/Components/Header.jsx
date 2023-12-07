@@ -7,10 +7,10 @@ import {
   HiTv,
 } from "react-icons/hi2";
 import { HiPlus, HiDotsVertical } from "react-icons/hi";
-import { HeaderItem } from "./HeaderItem";
+import HeaderItem from "../Components/HeaderItem";
 import { useState } from "react";
 
-export const Header = () => {
+const Header = () => {
   const [toggle, setToggle] = useState(false);
   const menu = [
     {
@@ -72,3 +72,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;

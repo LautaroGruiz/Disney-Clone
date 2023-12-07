@@ -1,6 +1,7 @@
 import "./App.css";
-import { Header } from "./Components/Header";
-import Slider from "./Components/Slider";
+import Header from "../src/Components/Header";
+import ProductionHouse from "../src/Components/ProductionHouse";
+import Slider from "../src/Components/Slider";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Header />
         <Slider />
+        <ProductionHouse />
       </div>
     </>
   );
