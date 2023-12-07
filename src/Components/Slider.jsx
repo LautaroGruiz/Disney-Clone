@@ -50,13 +50,13 @@ const Slider = () => {
       {showLeftArrow && (
         <HiChevronLeft
           onClick={() => handleScroll("left")}
-          className="md:block text-white text-[30px] absolute mx-8 mt-[150px] cursor-pointer"
+          className="md:block text-white text-[30px] absolute mx-8 mt-[180px] cursor-pointer"
         />
       )}
       {showRightArrow && (
         <HiChevronRight
           onClick={() => handleScroll("right")}
-          className="md:block text-white text-[30px] absolute mx-8 mt-[150px] cursor-pointer right-0"
+          className="md:block text-white text-[30px] absolute mx-8 mt-[180px] cursor-pointer right-0"
         />
       )}
       <div
@@ -74,7 +74,7 @@ const Slider = () => {
           <img
             key={item.id}
             src={IMAGE_BASE_URL + item.backdrop_path}
-            className="min-w-full h-[310px] object-cover object-left-top mr-5 
+            className="min-w-full h-[400px] object-cover object-left-top mr-8 
             rounded-md hover:border-[4px] border-gray-400 transition-all duration-100 ease-in"
             alt={item.title}
           />
